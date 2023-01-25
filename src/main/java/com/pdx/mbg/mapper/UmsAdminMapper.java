@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface UmsAdminMapper {
-    long countByExample(UmsAdminExample example);
+    int countByExample(UmsAdminExample example);
 
     int deleteByExample(UmsAdminExample example);
 
